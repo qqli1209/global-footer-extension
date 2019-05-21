@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://microsoft.sharepoint-df.com/teams/SOXComm/SitePages/SOX-co.aspx",
+      "pageUrl": "https://luhu.sharepoint.com/sites/DevDays/SitePages/footer.aspx",
       "customActions": {
         "89092bd4-9033-4ea1-8d10-776b7116f8e0": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -15,7 +15,7 @@
       }
     },
     "globalFooter": {
-      "pageUrl": "https://microsoft.sharepoint-df.com/teams/SOXComm/SitePages/SOX-co.aspx",
+      "pageUrl": "https://luhu.sharepoint.com/sites/DevDays/SitePages/footer.aspx",
       "customActions": {
         "89092bd4-9033-4ea1-8d10-776b7116f8e0": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -37,7 +37,7 @@
                 "url": "/sites/marcom/sitepages/announcements.aspx"
               }
             ],
-            "label": "Contoso - Sharing is caring"
+            "label": "DevDays@Taipei"
           }
         }
       }

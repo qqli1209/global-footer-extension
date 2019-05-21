@@ -68,7 +68,7 @@ To configure links for your portal, after deploying the solution in the app cata
           "url": "/sites/marcom/sitepages/announcements.aspx"
         }
       ],
-      "label": "Contoso - Sharing is caring"
+      "label": "DevDays@Taipei"
     }
     ```
 
