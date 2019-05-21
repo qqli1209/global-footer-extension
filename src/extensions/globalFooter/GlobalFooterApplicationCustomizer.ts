@@ -24,7 +24,10 @@ export default class GlobalFooterApplicationCustomizer
     }
 
     if (!this.footerPlaceholder) {
-      this.footerPlaceholder = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Bottom, { onDispose: this._onDispose });
+      this.footerPlaceholder = this.context.placeholderProvider.tryCreateContent(
+        PlaceholderName.Bottom,
+        { onDispose: () => {} }
+      );
     }
 
     if (!this.footerPlaceholder) {
@@ -45,6 +48,7 @@ export default class GlobalFooterApplicationCustomizer
     return Promise.resolve();
   }
 
-  private _onDispose(): void {
+  protected onDispose(): void {
+    super.onDispose();
   }
 }
